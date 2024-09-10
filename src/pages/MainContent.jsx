@@ -104,7 +104,7 @@ const MainContent = () => {
     return (
         <div className="row">
             {cardData.map((card, index) => (
-                <div key={index} className="col-4 mt-5">
+                <div key={index} className="col-lg-4 col-sm-6 mt-5">
                     <div className="card" style={{ width: "18rem" }}>
                         <img src={card.image} className="card-img-top" alt="..." />
                         <div className="card-body">
